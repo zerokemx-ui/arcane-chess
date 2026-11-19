@@ -1,0 +1,39 @@
+{
+  "fps": 24,
+  "clips": {
+    "Idle": {
+      "duration": 2.0,
+      "loop": true
+    },
+    "Gallop": {
+      "duration": 0.5,
+      "loop": true
+    },
+    "Leap": {
+      "duration": 1.0,
+      "hits": [
+        0.76
+      ],
+      "takeoff": 0.25
+    },
+    "Rear": {
+      "duration": 1.75,
+      "hits": [
+        1.15
+      ]
+    },
+    "Charge": {
+      "duration": 0.5,
+      "loop": true
+    }
+  },
+  "sockets": {
+    "lance": "Socket_Hand_R",
+    "shield": "Socket_Shield"
+  },
+  "standCenter": [
+    0.0,
+    0.0,
+    -0.0348
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "fps": 24,
+  "clips": {
+    "Idle": {
+      "duration": 1.667,
+      "loop": true
+    },
+    "March": {
+      "duration": 0.6,
+      "loop": true,
+      "speed": 1.9
+    },
+    "Upswing": {
+      "duration": 2.3,
+      "hits": [
+        1.44
+      ],
+      "entry": 0
+    },
+    "Bash": {
+      "duration": 2.3,
+      "hits": [
+        1.44
+      ],
+      "entry": 0
+    },
+    "Quake": {
+      "duration": 1.5,
+      "hits": [
+        0.86
+      ],
+      "entry": 0,
+      "takeoff": 0.18,
+      "groundCrack": true
+    }
+  },
+  "sockets": {
+    "hammer": "Socket_Hand_R",
+    "shield": "Socket_Shield"
+  },
+  "standCenter": [
+    0.0081,
+    0.1502,
+    0.0763
+  ]
+}

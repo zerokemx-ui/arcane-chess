@@ -1,0 +1,58 @@
+{
+  "fps": 24,
+  "clips": {
+    "Idle": {
+      "duration": 3.0,
+      "loop": true
+    },
+    "Walk": {
+      "duration": 1.6667,
+      "loop": true,
+      "speed": 0.55
+    },
+    "Thrust": {
+      "duration": 1.0833,
+      "loop": false,
+      "hits": [
+        0.46
+      ],
+      "entry": 0
+    },
+    "Judgment": {
+      "duration": 1.6667,
+      "loop": false,
+      "hits": [
+        0.4,
+        0.98
+      ],
+      "entry": 0
+    },
+    "HolyCross": {
+      "duration": 2.375,
+      "loop": false,
+      "hits": [
+        1.0
+      ],
+      "entry": 0
+    }
+  },
+  "sockets": {
+    "staff": "Socket_Hand_R"
+  },
+  "staffLength": 2.45,
+  "staffGrip": 0.5994,
+  "staffTip": [
+    0,
+    0.5165,
+    0
+  ],
+  "sourceHeightMeters": 2.6,
+  "forwardAxis": "+Z",
+  "robeReboundVertices": 19631,
+  "animationMethod": "Blender procedural bone poses; StaffGrip bone slides the staff during thrusts",
+  "standCenter": [
+    -0.004,
+    0.1704,
+    0.0911
+  ]
+}

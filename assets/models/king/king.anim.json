@@ -1,0 +1,61 @@
+{
+  "fps": 24,
+  "clips": {
+    "Idle": {
+      "duration": 3.0,
+      "loop": true
+    },
+    "Walk": {
+      "duration": 1.6667,
+      "loop": true,
+      "speed": 0.55
+    },
+    "Point": {
+      "duration": 1.0833,
+      "loop": false,
+      "hits": [
+        0.28
+      ],
+      "entry": 0,
+      "event": "spell-release"
+    },
+    "CastBlast": {
+      "duration": 2.0833,
+      "loop": false,
+      "hits": [
+        1.1
+      ],
+      "entry": 0,
+      "event": "spell-release"
+    },
+    "RoyalSlam": {
+      "duration": 2.3333,
+      "loop": false,
+      "hits": [
+        1.48
+      ],
+      "entry": 0,
+      "event": "ground-impact"
+    }
+  },
+  "sockets": {
+    "scepter": "Socket_Hand_R"
+  },
+  "scepterTip": [
+    0,
+    0.9395,
+    0
+  ],
+  "scepterLength": 2.65,
+  "sourceHeightMeters": 2.8,
+  "forwardAxis": "+Z",
+  "animationMethod": "Blender procedural bone poses and interpolated keyframes",
+  "cloakReboundVertices": 26701,
+  "integrationStatus": "asset-only; game source unchanged",
+  "effectNotes": "Projectile, beam, shockwave, victim fracture and camera are game integration tasks.",
+  "standCenter": [
+    -0.0169,
+    0.2128,
+    0.229
+  ]
+}

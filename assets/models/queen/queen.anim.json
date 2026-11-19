@@ -1,0 +1,46 @@
+{
+  "fps": 24,
+  "clips": {
+    "Idle": {
+      "loop": true,
+      "duration": 4.0
+    },
+    "Point": {
+      "loop": false,
+      "hits": [
+        0.25
+      ],
+      "entry": 0,
+      "duration": 0.917
+    },
+    "Push": {
+      "loop": false,
+      "hits": [
+        0.25
+      ],
+      "entry": 0,
+      "duration": 1.375
+    },
+    "Judgment": {
+      "loop": false,
+      "hits": [
+        1.917
+      ],
+      "entry": 0.083,
+      "duration": 2.5
+    }
+  },
+  "sockets": {
+    "staff": "Socket_Hand_R"
+  },
+  "staffTip": [
+    0,
+    0.953,
+    0
+  ],
+  "standCenter": [
+    0.0005,
+    0.0,
+    0.0
+  ]
+}

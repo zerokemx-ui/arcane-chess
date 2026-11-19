@@ -1,0 +1,42 @@
+{
+  "fps": 24,
+  "clips": {
+    "Idle": {
+      "duration": 1.6666666666666667,
+      "loop": true
+    },
+    "Charge": {
+      "loop": true,
+      "duration": 0.625
+    },
+    "Combo": {
+      "loop": false,
+      "hits": [
+        0.773,
+        1.194
+      ],
+      "duration": 1.902,
+      "holdSeconds": 0.125,
+      "entry": 0.048
+    },
+    "Spin": {
+      "loop": false,
+      "hits": [
+        1.088,
+        1.619
+      ],
+      "duration": 2.327,
+      "holdSeconds": 0.125,
+      "entry": 0.288
+    }
+  },
+  "sockets": {
+    "swordHand": "Socket_Hand_R",
+    "shield": "Socket_Shield"
+  },
+  "standCenter": [
+    0.0197,
+    0.1407,
+    -0.027
+  ]
+}
